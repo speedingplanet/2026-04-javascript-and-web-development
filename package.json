@@ -1,0 +1,45 @@
+{
+	"name": "improved-javascript-and-web-development",
+	"version": "4.0.0",
+	"description": "JavaScript and Web Development class",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"format": "prettier . --check",
+		"format:write": "prettier . --write",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"test": "qunit"
+	},
+	"keywords": [],
+	"author": "John Paxton <pax@speedingplanet.com>",
+	"license": "ISC",
+	"engines": {
+		"node": ">=22"
+	},
+	"workspaces": [
+		"demos",
+		"labs"
+	],
+	"devDependencies": {
+		"@eslint/js": "^9.39.4",
+		"@speedingplanet/eslint-config": "^0.0.9",
+		"chai": "^6.2.2",
+		"chalk": "^5.6.2",
+		"eslint-plugin-qunit": "^8.2.6",
+		"globals": "^17.4.0",
+		"http-server": "^14.1.1",
+		"json-server": "^1.0.0-beta.15",
+		"msw": "^2.12.14",
+		"nodemon": "^3.1.14",
+		"prettier": "^3.8.1",
+		"qunit": "^2.25.0",
+		"requirejs": "^2.3.8",
+		"sinon": "^21.0.3",
+		"vite": "^8.0.3"
+	},
+	"dependencies": {
+		"lit": "^3.3.2",
+		"lodash-es": "^4.18.1"
+	}
+}
