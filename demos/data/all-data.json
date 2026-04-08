@@ -53,6 +53,33 @@
 			"writer": ["Hayao Miyazaki"],
 			"rating": 5,
 			"genres": ["anime", "fantasy", "family", "mystery"]
+		},
+		{
+			"id": 7,
+			"title": "Harry Potter and the Deathly Hallows: Part 1",
+			"year": 2010,
+			"director": "David Yates",
+			"writer": ["J. K. Rowling", "Steve Kloves"],
+			"rating": 4,
+			"genres": ["fantasy", "family", "mystery", "magic", "adventure"]
+		},
+		{
+			"id": 8,
+			"title": "Despicable Me",
+			"year": 2010,
+			"director": ["Pierre Coffin", "Chris Renaud"],
+			"writer": ["Cinco Paul", "Ken Daurio", "Sergio Pablos"],
+			"rating": 3,
+			"genres": ["anime", "fantasy", "family", "minions"]
+		},
+		{
+			"id": 9,
+			"title": "Pulp Fiction",
+			"year": 1994,
+			"director": "Quentin Tarantino",
+			"writer": ["Quentin Tarantino", "Roger Avary"],
+			"rating": 5,
+			"genres": ["drama", "action", "mystery", "royale-with-cheese"]
 		}
 	],
 	"countries": [
