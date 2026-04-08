@@ -1,11 +1,10 @@
 {
 	"folders": [
 		{
-			"path": "demos"
+			"path": "./demos"
 		}
 	],
 	"settings": {
-		"js/ts.preferences.importModuleSpecifierEnding": "js",
 		"workbench.colorCustomizations": {
 			"activityBar.activeBackground": "#fbed80",
 			"activityBar.background": "#fbed80",

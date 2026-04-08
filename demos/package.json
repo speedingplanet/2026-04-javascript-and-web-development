@@ -11,7 +11,8 @@
 		"lint:fix": "eslint . --fix",
 		"start": "http-server -p 3000 --cors -c-1",
 		"dev": "npm start",
-		"rest": "json-server --watch --port 8000 data/all-data.json"
+		"rest": "json-server --watch --port 8000 data/all-data.json",
+		"test": "qunit qunit/**/*.js"
 	},
 	"author": "John Paxton <pax@speedingplanet.com>",
 	"license": "ISC"

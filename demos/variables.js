@@ -88,7 +88,12 @@ const anObject = {
 	state: 'NJ',
 };
 
+// Accessing a property with a variable
+let key = 'state';
+anObject[key] = 'MA';
+
 console.log(anObject.firstName);
+console.log(anObject['firstName']);
 console.log(anObject['zip code']);
 
 const data = { firstNames: [] };
