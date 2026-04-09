@@ -35,6 +35,7 @@ export function renderMoviesAsGrid(movies, columns = defaultHeaders) {
 
 export function renderMoviesAsTable(movies, columns = defaultHeaders) {
 	let table = document.createElement('table');
+	table.classList.add('table', 'table-striped');
 	let tableHeader = document.createElement('thead');
 	let tableBody = document.createElement('tbody');
 
@@ -44,7 +45,7 @@ export function renderMoviesAsTable(movies, columns = defaultHeaders) {
 	tableHeader.append(tableHeaderRow);
 
 	for (let column of columns) {
-		tableHeaderRow.insertAdjacentHTML('beforeend', `<th>${column}</th>`);
+		tableHeaderRow.insertAdjacentHTML('beforeend', `<th>${column}&nbsp;↕️</th>`);
 	}
 
 	for (let movie of movies) {
