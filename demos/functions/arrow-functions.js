@@ -15,6 +15,10 @@ const addArrowShort = (x, y) => x + y;
 
 const timesTwo = (x) => x * 2;
 
+// Cursed
+// const x = x => x * x;
+// const squareIt = value => value ** 2;
+
 // Multi-line returns are wrapped with parentheses, not curly braces
 // prettier-ignore
 const multiLineReturn = () => (
