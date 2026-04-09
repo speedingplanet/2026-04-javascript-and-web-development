@@ -1,0 +1,13 @@
+.movie-row {
+	display: flex;
+	align-items: baseline;
+	height: fit-content;
+}
+
+.movie-element {
+	flex: 1;
+}
+
+.movie-element:first-child {
+	padding-inline-end: 0.2em;
+}

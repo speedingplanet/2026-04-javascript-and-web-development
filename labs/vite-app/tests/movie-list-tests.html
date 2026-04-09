@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<meta charset="utf-8" />
+	<title>QUnit</title>
+	<link
+		rel="stylesheet"
+		href="https://code.jquery.com/qunit/qunit-2.25.0.css"
+	/>
+	<body>
+		<div id="qunit"></div>
+		<div id="qunit-fixture"></div>
+		<script src="https://code.jquery.com/qunit/qunit-2.25.0.js"></script>
+		<script type="module">
+			import { renderMoviesAsTable } from '/src/render-movies.js';
+			import { movies } from '/src/data/all-data.mjs';
+			QUnit.module('list-movies', {
+				beforeEach() {
+					document
+						.querySelector('#qunit-fixture')
+						.insertAdjacentHTML('beforeEnd', '<div id="movies-container"></div>');
+				},
+			});
+
+			QUnit.test('basic', (assert) => {
+				assert.ok(1);
+			});
+
+			QUnit.test('html', (assert) => {
+				let table = renderMoviesAsTable(movies);
+				let tableHeader = table.querySelector('thead');
+				assert.ok(tableHeader);
+			});
+		</script>
+	</body>
+</html>
